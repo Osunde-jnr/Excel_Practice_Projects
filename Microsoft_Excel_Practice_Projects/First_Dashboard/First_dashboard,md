@@ -1,0 +1,159 @@
+
+# 🧠 Data Science Job Market Dashboard (Excel Project)
+
+## 📘 Overview
+
+This Excel project explores and visualizes the global **data science job market** — focusing on salaries, job roles, locations, top platforms and skill demand.
+The interactive dashboard (worksheet: **First_Dashboard**) allows users to explore data dynamically through dropdowns and charts.
+
+This project was built entirely in **Microsoft Excel** using tools such as Tables, Data Validation, Data Cleaning using formular and advanced charting.
+
+![]()
+![First_Dashboard.gif]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\First_Dashboard.gif")
+
+---
+
+## 🗂️ Workbook Structure
+
+| **Sheet Name**    | **Purpose**                                                                |
+| ----------------- | -------------------------------------------------------------------------- |
+| `Data`            | Raw dataset containing ~32,000 job postings with salary and job details.   |
+| `First_Dashboard` | Main interactive dashboard summarizing insights visually.                  |
+| `Data_Validation` | Source lists for dropdown menus (job titles, countries, types, platforms). |
+| `title`           | Calculates median salaries grouped by job title.                           |
+| `country`         | Displays median salaries grouped by country.                               |
+| `type`            | Shows salary comparisons by job type (full-time, freelance, etc.).         |
+| `platform`        | Lists job counts per posting platform (LinkedIn, Indeed, Glassdoor, etc.). |
+
+---
+
+## ⚙️ Step-by-Step Process
+
+### 1️⃣ Data Preparation (`Data` Sheet)
+
+* Cleaned and standardized raw data using Excel functions:
+
+  * `TRIM()`, `PROPER()`, `SUBSTITUTE()` for text cleanup.
+  * Ensured salary and date columns were consistently formatted.
+  * Handled blanks and errors with `IFERROR()` and `IFNA()`.
+* Final dataset includes key fields such as job title, country, type, platform, salary, and experience level.
+
+---
+
+### 2️⃣ Data Validation (`Data_Validation` Sheet)
+
+* Created **dropdown lists** for user interactivity in the dashboard.
+* Lists include:
+
+  * Job Titles
+  * Countries
+  * Employment Types
+  * Platforms
+* Implemented through:
+  `Data → Data Validation → List → =Data_Validation!A2:A100`
+
+---
+
+### 3️⃣ Supporting Tables
+
+* **title sheet:** Median salary by job title
+
+  ```excel
+  =MEDIAN(IF(Data[Job_Title]=A2, Data[Salary]))
+  ```
+* **country sheet:** Median salary by location.
+* **type sheet:** Salary comparison by employment type.
+* **platform sheet:** Job counts by platform using:
+
+  ```excel
+  =COUNTIF(Data[Platform], A2)
+  ```
+
+
+![BTS_Overview.gif]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\BTS_Overview.gif")
+---
+
+### 4️⃣ Dashboard Construction (`First_Dashboard` Sheet)
+
+* Combined all supporting data into a single interactive interface.
+* Features include:
+
+  * Dropdowns linked to Data Validation lists.
+   * Charts (column, pie, map) visualizing:
+
+    * Salary by job title
+    * Jobs by country and type
+    * Popular job platforms
+* Used dynamic named ranges for charts:
+
+ 
+* Added KPI's.
+
+---
+
+### 5️⃣ Interactivity & Design Enhancements
+
+* Conditional formatting to highlight salary ranges.
+* Sparklines for trend visualization.
+* Consistent theme, color palette, and typography.
+* Created a clear project header:
+  **“Data Science Job Market Dashboard”**
+
+---
+
+## 📊 Key Insights
+
+* 💰 **Salaries** vary significantly by both **country** and **job title**.
+* 🌍 The **United States** shows higher median pay compared to other regions.
+* 🧑‍💻 **Full-time roles** typically offer higher salaries than freelance or contract positions.
+* 💼 **Platforms** like LinkedIn and Glassdoor dominate job postings.
+
+---
+
+## 🧠 What I Learned
+
+### 1. Data Cleaning & Preparation
+
+* Cleaned messy data using `TRIM`, `CLEAN`, `SORT` and `UNIQUE`.
+* Ensured consistent data formats for analysis.
+
+### 2. Data Validation
+
+* Built dynamic dropdowns using named ranges and the Data Validation tool.
+
+### 3. Tables & Charts
+
+* Summarized and visualized complex datasets efficiently.
+
+### 4. Dynamic Dashboards
+
+* Charts, and dropdowns for full interactivity.
+
+### 5. Analytical Thinking
+
+* Derived actionable insights such as top-paying countries and high-demand roles.
+
+### 6. Visualization & Storytelling
+
+* Designed an intuitive, user-friendly layout that communicates data insights clearly.
+
+---
+
+## 🧰 Tools & Features Used
+
+* **Microsoft Excel**
+* Power Query (ETL)
+* Tables & Charts
+* Conditional Formatting
+* Data Validation & Named Ranges
+* Form Controls & Slicers
+
+---
+
+## 🏁 Result
+
+An **interactive Excel dashboard** that empowers data science job seekers and analysts to explore salary trends, role distributions, and job platforms across global regions — all in a single, easy-to-use interface.
+
+---
+
+
