@@ -9,7 +9,7 @@ The interactive dashboard (worksheet: **First_Dashboard**) allows users to explo
 This project was built entirely in **Microsoft Excel** using tools such as Tables, Data Validation, Data Cleaning using formular and advanced charting.
 
 
-![First_Dashboard.gif]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\First_Dashboard.gif")
+![First_Dashboard.gif]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Excel_Practice_Projects\Microsoft_Excel_Practice_Projects\Resources\First_Dashboard.gif")
 
 ---
 
