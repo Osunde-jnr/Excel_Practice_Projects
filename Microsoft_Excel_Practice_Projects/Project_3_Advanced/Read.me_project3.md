@@ -77,8 +77,6 @@ By leveraging **Power Query, Power Pivot, DAX, PivotTables, and PivotCharts**, i
 - Median salary calculations by title and region 
 
 
-![Top_paying_skills](C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\Screenshot 2025-11-11 012014.png)
-
 ---
 
 ## 🏁 Conclusion
