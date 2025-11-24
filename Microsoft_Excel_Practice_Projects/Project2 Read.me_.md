@@ -56,7 +56,7 @@ Each worksheet in this project answers one of these key questions.
 ✅ Conditional formatting for Top 5 salaries  
 
  
-![Average_Salary]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\Avarage_salary.png")
+![Average_Salary](/Microsoft_Excel_Practice_Projects/Resources/Avarage_salary.png)
 
 ---
 
@@ -84,7 +84,7 @@ Each worksheet in this project answers one of these key questions.
 ✅ Category grouping and labeling within PivotTable  
 
  
-![Distribution of Data Nerds Chart]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\Grouped_nerds.png")
+![Distribution of Data Nerds Chart](/Microsoft_Excel_Practice_Projects/Resources/Grouped_nerds.png)
 
 ---
 
@@ -107,7 +107,7 @@ Each worksheet in this project answers one of these key questions.
 ✅ Month grouping in PivotTable  
 
 🖼️   
-![Job Trend Chart]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\Job_trend.png")
+![Job Trend Chart](/Microsoft_Excel_Practice_Projects/Resources/Job_trend.png)
 
 ---
 

@@ -28,12 +28,12 @@ By leveraging **Power Query, Power Pivot, DAX, PivotTables, and PivotCharts**, i
 
 1. **Extract & Transform** – Imported `data_salary_all.xlsx` using Power Query, cleaned and formatted columns, trimmed spaces, and removed irrelevant fields. 
 
-![Powerquery_interface.png]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\Powerquery_interface.png")
+![Powerquery_interface.png](/Microsoft_Excel_Practice_Projects/Resources/Powerquery_interface.png)
 
 
 2. **Data Modeling** – Related `data_jobs_all` and `data_job_skills` tables via `job_id` in Power Pivot.
 
-![Data_Modelling]("C:\Users\HP\Desktop\Microsoft_Excel_Learning_Process\Microsoft_Excel_Practice_Projects\Resources\relationship.png")
+![Data_Modelling](/Microsoft_Excel_Practice_Projects/Resources/relationship.png)
 3. **Measure Creation (DAX)** – Computed median salaries and scoped measures (e.g., by region).  
 4. **Visualization** – Created PivotTables and combo charts to visualize skill impact and regional pay differences.  
 5. **Interpretation** – Derived insights to identify market patterns and actionable recommendations.  
