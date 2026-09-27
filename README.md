@@ -1,2 +1,6 @@
 # Excel_Practice_Projects
-Demonstration of my earned skills in Microsoft Excel. Materials and knowlege acquired during this course are credited to Luke Barousse
+Brief overview of the projects  
+Skills practiced (formulas, PivotTables, Power Query, charts, etc.)  
+Screenshots or file list  
+Clear credit to Luke Barousse
+
